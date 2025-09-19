@@ -3,11 +3,69 @@
   <head>
     <meta http-equiv="Content-Type"
         content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martin Sohn Christensen</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #333;
+        background-color: #fff;
+      }
+      
+      h1 {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+      }
+      
+      h3 {
+        color: #34495e;
+        margin-top: 40px;
+        margin-bottom: 15px;
+      }
+      
+      a {
+        color: #3498db;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: #2980b9;
+        text-decoration: underline;
+      }
+      
+      ul {
+        padding-left: 20px;
+      }
+      
+      li {
+        margin-bottom: 8px;
+      }
+      
+      /* Responsive adjustments */
+      @media (max-width: 600px) {
+        body {
+          padding: 15px;
+        }
+        
+        h1 {
+          font-size: 1.8em;
+        }
+        
+        ul {
+          padding-left: 15px;
+        }
+      }
+    </style>
   </head>
   <body>
     <h1>Martin Sohn Christensen</h1>
-    <h3 id="profiles">Profiles</h3>
+    <h3>Profiles</h3>
     <ul>
         <li>X <a href="https://twitter.com/martinsohndk">@martinsohndk</a></li>
         <li>Bluesky  <a href="https://bsky.app/profile/martinsohn.dk">@martinsohn.dk</a></li>
@@ -15,61 +73,66 @@
         <li>Github <a href="https://github.com/MartinSohn">@martinsohn</a></li>
     </ul>
     
-    <h3 id="projects">Tools</h3>
+    <h3>Tools</h3>
     <ul>
-        <li><a href="https://github.com/martinsohn/CIS-Controls">CIS Controls Initial Assessment Tool v8.0b</a></li>
-        <li><a href="https://github.com/martinsohn/Office-phish-templates">Office phish templates and defense recommendations</a></li>
-        <li><a href="https://github.com/martinsohn/PowerShell-reverse-shell">PowerShell TCP reverse shell</a></li>
-        <li><a href="https://github.com/martinsohn/CVE-2020-8816">CVE-2020-8816 analysis and PoC</a></li>
+        <li><a href="https://github.com/martinsohn/ManagerOfHound">ManagerOfHound</a> - OpenGraph extension for BloodHound to discover manager-subordinate privilege escalation paths</li>
+        <li><a href="https://github.com/martinsohn/CIS-Controls">CIS Controls Initial Assessment Tool v8.0b</a> - Enhanced CIS Controls v8 assessment spreadsheet with consolidated safeguards and enriched metadata</li>
+        <li><a href="https://github.com/martinsohn/Office-phish-templates">Office phish templates and defense recommendations</a> - Social engineering templates to trick users into enabling macros, plus comprehensive defense strategies</li>
+        <li><a href="https://github.com/martinsohn/PowerShell-reverse-shell">PowerShell TCP reverse shell</a> - Encrypted reverse shell with DNS-over-HTTPS C2 discovery and comprehensive PowerShell defense guidance</li>
+        <li><a href="https://github.com/martinsohn/CVE-2020-8816">CVE-2020-8816 analysis and PoC</a> - Alternative Pi-hole RCE exploit using $PWD and globbing instead of $PATH manipulation</li>
     </ul>
     
-    <h3 id="posts">Posts</h3>
+    <h3>Posts</h3>
     <ul>
-	<li>2023-03-02, <a href="https://improsec.com/tech-blog/how-i-killed-bt-payphone-email">How I killed BT's payphone email service</a></li>
-	<li>2023-02-13, <a href="https://improsec.com/tech-blog/basic-microsoft-active-directory-security-identify-and-prioritize-low-hanging-risks">Basic Microsoft Active Directory Security - Identify and Prioritize Low-hanging Risks</a></li>
+        <li>2025-06-17, <a href="https://specterops.io/blog/2025/06/17/introducing-the-bloodhound-query-library/">Introducing the BloodHound Query Library</a></li>
+        <li>2023-03-02, <a href="https://itm8.com/articles/how-i-killed-bt-s-payphone-email-service">How I killed BT's payphone email service</a></li>
+        <li>2023-02-13, <a href="https://itm8.com/articles/basic-microsoft-active-directory-security-identify-and-prioritize-low-hanging-risks">Basic Microsoft Active Directory Security - Identify and Prioritize Low-hanging Risks</a></li>
+        <li>2022-09-13, <a href="https://itm8.com/articles/local-privilege-escalation-vulnerabilities-in-peazip-msi-installer">Local privilege escalation vulnerabilities in PeaZip MSI installer</a> - CVE-2022-40779 & CVE-2022-47082</li>
         <li>Series: Email security (collab)
             <ul>
-                <li>2022-06-21, <a href="https://improsec.com/tech-blog/arebelongtous">Part 1: All Your SPF Includes Are Belong To Us</a></li>
-                <li>2022-06-27, <a href="https://improsec.com/tech-blog/phishnchimps-mail-spoofing-via-marketing-and-crm-platforms">Part 2: Phish&#39;n&#39;Chimps: email spoofing via marketing and CRM platforms</a></li>
-                <li>2022-07-08, <a href="https://improsec.com/tech-blog/email-security-pitfalls">Part 3: Email Security Pitfalls</a></li>
+                <li>2022-06-21, <a href="https://itm8.com/articles/all-your-spf-includes-are-belong-to-us">Part 1: All Your SPF Includes Are Belong To Us</a></li>
+                <li>2022-06-27, <a href="https://itm8.com/articles/phish-n-chimps-mail-spoofing-via-marketing-and-crm-platforms">Part 2: Phish'n'Chimps: email spoofing via marketing and CRM platforms</a></li>
+                <li>2022-07-08, <a href="https://itm8.com/articles/email-security-pitfalls">Part 3: Email Security Pitfalls</a></li>
             </ul>
         </li>
         <li>Series: SID filter as security boundary between domains? (collab)
             <ul>
-                <li>2022-03-28, <a href="https://improsec.com/tech-blog/o83i79jgzk65bbwn1fwib1ela0rl2d">Part 1: Kerberos authentication explained</a></li>
-                <li>2022-03-29, <a href="https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-part-2-known-ad-attacks-from-child-to-parent">Part 2: Known AD attacks - from child to parent</a></li>
-                <li>2022-04-01, <a href="https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-part-3-sid-filtering-explained">Part 3: SID filtering explained</a></li>
-                <li>2022-04-04, <a href="https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-part-4-bypass-sid-filtering-research">Part 4: Bypass SID filtering research</a></li>
-                <li>2022-04-06, <a href="https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-part-5-golden-gmsa-trust-attack-from-child-to-parent">Part 5: Golden GMSA trust attack - from child to parent</a></li>
-                <li>2022-04-07, <a href="https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-part-6-schema-change-trust-attack-from-child-to-parent">Part 6: Schema change trust attack - from child to parent</a></li>
-                <li>2022-04-08, <a href="https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-part-7-trust-account-attack-from-trusting-to-trusted">Part 7: Trust account attack - from trusting to trusted</a></li>
+                <li>2022-03-28, <a href="https://itm8.com/articles/sid-filter-as-security-boundary-between-domains-part-1">Part 1: Kerberos authentication explained</a></li>
+                <li>2022-03-29, <a href="https://itm8.com/articles/sid-filter-as-security-boundary-between-domains-part-2">Part 2: Known AD attacks - from child to parent</a></li>
+                <li>2022-04-01, <a href="https://itm8.com/articles/sid-filter-as-security-boundary-between-domains-part-3">Part 3: SID filtering explained</a></li>
+                <li>2022-04-04, <a href="https://itm8.com/articles/sid-filter-as-security-boundary-between-domains-part-4">Part 4: Bypass SID filtering research</a></li>
+                <li>2022-04-06, <a href="https://itm8.com/articles/sid-filter-as-security-boundary-between-domains-part-5">Part 5: Golden GMSA trust attack - from child to parent</a></li>
+                <li>2022-04-07, <a href="https://itm8.com/articles/sid-filter-as-security-boundary-between-domains-part-6">Part 6: Schema change trust attack - from child to parent</a></li>
+                <li>2022-04-08, <a href="https://itm8.com/articles/sid-filter-as-security-boundary-between-domains-part-7">Part 7: Trust account attack - from trusting to trusted</a></li>
             </ul>
         </li>
-        <li>2022-03-01, <a href="https://improsec.com/tech-blog/network-share-risks-deploying-secure-defaults-and-searching-shares-for-sensitive-information-credentials-pii-and-more">Network share risks - Deploying secure defaults and searching shares for sensitive information (credentials, PII, and more)</a></li>
-        <li>2021-12-03, <a href="https://improsec.com/tech-blog/the-command-prompt-has-been-disabled-by-your-administrator-press-any-key-to-continue-or-use-these-weird-tricks-to-bypass-admins-will-hate-you">The command prompt has been disabled by your administrator. Press any key to continue... or use these weird tricks to bypass – admins will hate you!</a></li>
+        <li>2022-03-17, <a href="https://itm8.com/articles/privilege-escalation-vulnerability-in-anaconda3-and-miniconda3">Privilege escalation vulnerability in Anaconda3 and Miniconda3</a> - CVE-2022-26526</li>
+        <li>2022-03-01, <a href="https://itm8.com/articles/network-share-risks-deploying-secure-defaults-and-searching-shares-for-sensitive-information-credentials-pii-and-more">Network share risks - Deploying secure defaults and searching shares for sensitive information (credentials, PII, and more)</a></li>
+        <li>2021-12-03, <a href="https://itm8.com/articles/the-command-prompt-has-been-disabled-by-your-administrator-press-any-key-to-continue-or-use-these-weird-tricks-to-bypass-admins-will-hate-you">The command prompt has been disabled by your administrator. Press any key to continue... or use these weird tricks to bypass – admins will hate you!</a></li>
+        <li>2021-01-28, <a href="https://itm8.com/articles/privilege-escalation-vulnerability-in-ninjarmm-agent-msi-installer-introduced-by-exemsi-msi-wrapper">Privilege escalation vulnerability in NinjaRMM Agent MSI Installer introduced by EXEMSI MSI Wrapper</a> - CVE-2021-26273 & CVE-2021-26274</li>
     </ul>
     
-    <h3 id="talks">Talks</h3>
+    <h3>Talks</h3>
     <ul>
-        	<li>2022-10-09, BSides Copenhagen 2022: <a href="https://github.com/martinsohn/Active-Directory-trust-attacks/tree/main/presentations/BSidesCPH2022">Don't be trusted: Active Directory trust attacks</a>, and <a href="https://vimeo.com/787332389">the recording</a></li>
-		<li>2022-08-14, Adversary Village DEF CON 30: <a href="https://github.com/martinsohn/Active-Directory-trust-attacks/tree/main/presentations/AdversaryVillage2022">Don't be trusted: Active Directory trust attacks</a></li>
-		<li>2022-03-26, OWASP Copenhagen: Email spoofing via marketing platforms</li>
+        <li>2022-10-09, BSides Copenhagen 2022: <a href="https://github.com/martinsohn/Active-Directory-trust-attacks/tree/main/presentations/BSidesCPH2022">Don't be trusted: Active Directory trust attacks</a>, and <a href="https://vimeo.com/787332389">the recording</a></li>
+        <li>2022-08-14, Adversary Village DEF CON 30: <a href="https://github.com/martinsohn/Active-Directory-trust-attacks/tree/main/presentations/AdversaryVillage2022">Don't be trusted: Active Directory trust attacks</a></li>
+        <li>2022-03-26, OWASP Copenhagen: Email spoofing via marketing platforms</li>
     </ul>
     
-    <h3 id="cves">CVEs</h3>
+    <h3>CVEs</h3>
     <ul>
-        <li>PeaZip - <a href="https://improsec.com/tech-blog/peazip-msi-installer-local-privilege-escalation-vulnerabilities">Local privilege escalation vulnerabilities in PeaZip MSI installer</a>
+        <li>PeaZip - <a href="https://itm8.com/articles/local-privilege-escalation-vulnerabilities-in-peazip-msi-installer">Local privilege escalation vulnerabilities in PeaZip MSI installer</a>
             <ul>
                 <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40779">CVE-2022-40779</a>: Privilege escalation in PeaZip version 8.8.0 MSI installer due to EXEMSI vulnerability</li>
-                <li><a href="">CVE-PENDING</a>: Privilege escalation in PeaZip version 8.8.0 MSI Installer due to incorrect access control</li>
+                <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-47082">CVE-2022-47082</a>: Privilege escalation in PeaZip version 8.8.0 MSI Installer due to incorrect access control</li>
             </ul>
         </li>
-    	<li>Anaconda3 and Miniconda3 - <a href="https://improsec.com/tech-blog/privilege-escalation-vulnerability-in-anaconda3-and-miniconda3">Privilege escalation vulnerability in Anaconda3 and Miniconda3</a>
+        <li>Anaconda3 and Miniconda3 - <a href="https://itm8.com/articles/privilege-escalation-vulnerability-in-anaconda3-and-miniconda3">Privilege escalation vulnerability in Anaconda3 and Miniconda3</a>
             <ul>
                 <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26526">CVE-2022-26526</a>: Privilege escalation in Anaconda3 v2021.11.0.0 and Miniconda3 v11.0.0.0</li>
             </ul>
         </li>
-		<li>NinjaRMM Agent - <a href="https://improsec.com/tech-blog/privilege-escalation-vulnerability-in-ninjarmm">Privilege escalation vulnerability in NinjaRMM Agent MSI Installer introduced by EXEMSI MSI Wrapper</a>
+        <li>NinjaRMM Agent - <a href="https://itm8.com/articles/privilege-escalation-vulnerability-in-ninjarmm-agent-msi-installer-introduced-by-exemsi-msi-wrapper">Privilege escalation vulnerability in NinjaRMM Agent MSI Installer introduced by EXEMSI MSI Wrapper</a>
             <ul>
                 <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26273">CVE-2021-26273</a>: Privilege escalation in NinjaRMM Agent v5.0.909</li>
                 <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26274">CVE-2021-26274</a>: Insecure installation folder permissions in NinjaRMM Agent v5.0.909</li>
@@ -78,9 +141,11 @@
         </li>
     </ul>
     
-    <h3 id="certifications">Certifications/trainings</h3>
+    <h3>Certifications/trainings</h3>
     <ul>
-	<li>Outsider Security - Offensive Entra ID (Azure AD) and Hybrid AD Security @ Insomni'hack 2024</li>
+        <li>SpecterOps - Adversary Tactics: Identity-Driven Offensive Tradecraft</li>
+        <li>SpecterOps - Adversary Tactics: Red Team Operations</li>
+        <li>Outsider Security - Offensive Entra ID (Azure AD) and Hybrid AD Security @ Insomni'hack 2024</li>
         <li>SpecterOps - Adversary Tactics: Vulnerability Research for Operators @ Black Hat 2023</li>
         <li>SpecterOps - Adversary Tactics: Tradecraft Analysis @ Black Hat 2022</li>
         <li>eLearnSecurity - Certified Professional Penetration Tester (eCPPTv2)</li>
